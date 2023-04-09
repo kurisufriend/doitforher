@@ -14,3 +14,9 @@ writings===blog===the blog is kill (again).
 I will probably want to publish something in the next few months, re-start it, wait a year, get embarrased, then delete it again.
 repeat ad infinitum or until I develop some self-confidence.
 shikata ga nai.
+SPLITPOST
+page generation script===script===This page is generated using a simple .php script that reads a custom data format and paginates the contents into the site locations you see here. 
+<br>I have a personal hatred for "static blog generators" that have you run an update/re-generation script every time you make a change, and this is only the last in a long line of (successful) attempts to make something better with fewer lines of code. 
+The last website used dynamic generation on the client side by fetching a hefty .json file with all the posts, and this experiment is the inverse.
+<br><a href='https://github.com/kurisufriend/doitforher'>https://github.com/kurisufriend/doitforher</a>
+<br>yes, I know it's shitcode. I don't care.
