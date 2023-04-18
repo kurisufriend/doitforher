@@ -36,6 +36,11 @@ a
 	background-color: rgba(0, 0, 0, .5);
 	overflow-wrap: break-word;
 }
+.after-content
+{
+	display: block;
+	margin-bottom: 0px;
+}
 <?php
 srand(time());
 $fuck = scandir("./imgs");
@@ -97,7 +102,7 @@ foreach($pages as $page)
 	else
 	{
 	?>
-	<?php echo($contents); ?>
+	<?php echo($contents); ?><br class='after-content'>
 	<?php
 	}
 }
